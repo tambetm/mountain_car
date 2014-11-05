@@ -17,9 +17,6 @@ score
 
 plot(-1.2:0.1:0.6, sin(3*(-1.2:0.1:0.6)));
 hold on;
-p = plot(positions(1), sin(3*positions(1)),'o','MarkerFaceColor','red');
-hold off
-axis manual
 for i = (2:length(positions))
   figure(1);
   plot(-1.2:0.1:0.6, sin(3*(-1.2:0.1:0.6)));
